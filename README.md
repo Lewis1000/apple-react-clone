@@ -5,12 +5,15 @@
 
 ## Setup
 
-To setup and run this project locally. Clone the repository then run "npm install" to install all packages used (tailwind + craco)
-After installed run "npm run build", this will launch the application at localhost:3000
+To setup and run this project locally. Clone the repository then run
 
 ```sh
 npm install 
 ```
+After installed run 
+
 ```sh
 npm run start
 ```
+
+this will launch the application at localhost:3000
