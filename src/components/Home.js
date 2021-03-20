@@ -5,7 +5,7 @@ const Home = () => {
         <div className="text-center">
             <div className="h-10" />
             <div className="h-1" />
-            <div className="text-center py-3" style={{backgroundColor: "#f5f5f7"}}>
+            <div className="text-center py-3 px-6" style={{backgroundColor: "#f5f5f7"}}>
                 <p className="text-sm"><a href="/" className="text-blue">Shop online</a> and get free, contactless delivery, Specialist help and more.</p>
             </div>
             <div className="img-1">
@@ -64,8 +64,9 @@ const Home = () => {
             <div className="h-3" />
             <div className="img-3">
                 <div className="container mx-auto">
-                    <div className="h-12" />
-                    <h1 className="text-5xl font-semibold text-black py-3 tracking-tight">iPad Air</h1>
+                    <div className="h-96 md:h-12" />
+                    <div className="h-28 md:h-0" />
+                    <h1 className="text-5xl font-semibold text-black py-3 tracking-tight hidden md:block">iPad Air</h1>
                     <p className="text-2xl font-normal text-black py-0.5 tracking-tight">Powerful. Colourful. Wonderful.</p>
                     <div className="flex mx-auto">
                         <div className="flex-grow" />
@@ -83,8 +84,8 @@ const Home = () => {
                         </a>
                         <div className="flex-grow" />
                     </div>
-                    <div className="h-16" />
-                    <div className="h-96" />
+                    <div className="h-0 md:h-16" />
+                    <div className="h-12 md:h-96" />
                 </div>
             </div>
             <div className="p-3 grid grid-cols-1 md:grid-cols-2 gap-3">

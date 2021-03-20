@@ -111,3 +111,29 @@ body {
     background-size: 130px;
     background-position: center center;
 }
+
+@media only screen and (max-width: 767px) {
+    .img-1 {
+        background-color: #fbfbfd;
+        background-image: url("./assets/1-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-position: center bottom;
+    }
+
+    .img-2 {
+        background-color: #000;
+        background-image: url("./assets/2-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-position: center bottom;
+    }
+
+    .img-3 {
+        background-color: #fbfbfd;
+        background-image: url("./assets/3-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 900px;
+        background-position: center bottom;
+    }
+}

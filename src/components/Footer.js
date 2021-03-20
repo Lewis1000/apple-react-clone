@@ -14,7 +14,7 @@ const Footer = () => {
 
     return (
         <div style={{backgroundColor: "#f5f5f7"}}>
-            <div className="container mx-auto py-2">
+            <div className="container mx-auto py-2 px-5">
                 <div className="py-3">
                     <p className="text-xs">1. iPhone 12 mini pricing is before the application of a trade-in credit. Monthly pricing requires a 24-month instalment loan with 0% APR from Barclays Partner Finance, which is a trading name of Clydesdale Financial Services Limited, a member of the Barclays Group. Subject to application and status. Full terms apply.</p>
                     <div className="h-3" />
@@ -44,7 +44,7 @@ const Footer = () => {
                             <ul>
                                 {learnItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -60,7 +60,7 @@ const Footer = () => {
                             <ul>
                                 {servicesItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                             <ul>
                                 {accountItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -90,7 +90,7 @@ const Footer = () => {
                             <ul>
                                 {storeItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -106,7 +106,7 @@ const Footer = () => {
                             <ul>
                                 {businessItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -120,7 +120,7 @@ const Footer = () => {
                             <ul>
                                 {educationItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -134,7 +134,7 @@ const Footer = () => {
                             <ul>
                                 {healthcareItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -150,7 +150,7 @@ const Footer = () => {
                             <ul>
                                 {valuesItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -164,7 +164,7 @@ const Footer = () => {
                             <ul>
                                 {aboutItems.map((element) => {
                                     return(
-                                        <li className="py-1" key={element}>
+                                        <li className="py-1 hidden md:block" key={element}>
                                             <a href="/">
                                                 <p className="text-xs">{element}</p>
                                             </a>
@@ -175,20 +175,17 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="py-3" style={{backgroundColor: "#f5f5f7"}}>
+                <div className="py-3">
                     <p className="text-xs">More ways to shop: <a href="/" className="text-blue">find an Apple Store</a> or <a href="/" className="text-blue">other retailer</a> near you. Or call 0800 048 0408.</p>
                 </div>
                 <div className="py-1">
                     <hr className="border-gray" />
                 </div>
-                <div className="py-3 flex" style={{backgroundColor: "#f5f5f7"}}>
-                    <div className="flex-grow text-left">
+                <div className="grid grid-cols-1 md:grid-cols-2 py-3">
+                    <div className="text-left">
                         <p className="text-xs">Copyright © 2021 Apple Inc. All rights reserved.</p>
                     </div>
-                    <div className="flex-grow">
-                        
-                    </div>
-                    <div className="flex-grow text-right">
+                    <div className="text-left md:text-right pt-3 md:pt-0">
                         <p className="text-xs">United Kingdom</p>
                     </div>
                 </div>
